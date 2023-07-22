@@ -305,3 +305,10 @@ button {
     padding: 10px 0px 0px 200px;
 
 }
+
+.play-discription span {
+    background: -webkit-linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
