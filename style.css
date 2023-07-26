@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,700&family=Work+Sans:wght@400;600;700;800&display=swap');
 
 * {
+    box-sizing: border-box;
+}
+
+* {
     font-family: 'Poppins',
         sans-serif;
     font-family: 'Work Sans',
@@ -88,7 +92,10 @@ button {
 /* Banner styles */
 
 .banner-section {
-
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,8 +106,7 @@ button {
 .banner-container {
 
     background-image: url(./images/group\ 14.png);
-    width: 880px;
-    height: 650px;
+    width: 70%
 }
 
 .banner-container h1 {
@@ -117,13 +123,19 @@ button {
 }
 
 .banner-image {
+
     width: 50%;
-    margin: auto;
+    margin: 0px auto;
 }
 
+.banner-image img {
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+}
 
 .btn-s {
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     width: 350px;
     height: 50px;
@@ -147,24 +159,40 @@ button {
 
 /* gamer-section style */
 
-.gamer-sections {
+
+
+.gamer-container {
+    border: 1px saddlebrown;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    gap: 20px;
+
+
+}
+
+.gamer-container {
     background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 600px;
+
+    /* object-fit: cover; */
+
+
+
 }
 
-.gamer-sections {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
+.gamer-sections {}
+
+.gamer-container img {
+    border: 1px solid rgb(72, 0, 255);
+    width: 700px;
+    height: auto;
 }
 
-.gamer-sections {
-    padding: 0px 200px;
-}
-
-.gamer-sections img {
-    width: 800px;
+.gamer-discriptions {
+    border: 1px solid red;
 }
 
 .gamer-discriptions h1 {
@@ -290,7 +318,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 120px;
+    margin-top: 100px;
+    /* margin-bottom: 120px; */
 }
 
 .play-discription h1 {
@@ -298,7 +327,7 @@ button {
     justify-content: center;
     font-size: 2.5rem;
     width: 350px;
-    padding: 150px 150px 0px 200px;
+    padding: 120px 150px 0px 200px;
 }
 
 .play-discription p {
@@ -380,6 +409,103 @@ button {
     padding: 30px 40px;
 }
 
+
+/* icon section started */
+.icon-container {
+    /* max-width: px; */
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto 0;
+    gap: 30px;
+
+    /* display: grid;
+    grid-template-columns: repeat(5 1fr); */
+}
+
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.action h4 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #0B0223;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 250px;
+    height: 80px;
+    border-color: #efeded;
+    border-radius: 50px;
+}
+
+/*    */
+
+.Adventure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Arcade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Educational {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Word-Games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Role-Palying {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Puzzle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.Strategy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 
 
 
