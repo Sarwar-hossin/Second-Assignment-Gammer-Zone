@@ -103,4 +103,49 @@
 
     }
 
+    .game-container-img {
+
+        flex-direction: column;
+
+    }
+
+    .play-instantly {
+        flex-direction: column;
+
+    }
+
+
+
+    .play-images img {
+        width: 70%;
+        height: 90%;
+        margin-left: 90px;
+    }
+
+    .small-image {
+        width: 40%;
+        position: absolute;
+        bottom: -20px;
+        left: -50px;
+
+    }
+
+    .play-discription {
+        width: 100%;
+    }
+
+
+    .careers-container {
+        flex-direction: column;
+    }
+
+    .img-section {
+        width: 100%;
+    }
+
+    .icon-container {
+
+        flex-direction: column;
+    }
+
 }
